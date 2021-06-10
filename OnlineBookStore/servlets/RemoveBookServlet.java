@@ -22,7 +22,7 @@ public class RemoveBookServlet extends GenericServlet {
 				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
 				rd.include(req, res);
 				pw.println("<div class=\"tab\">Book Removed Successfully</div>");
-				pw.println("<div class=\"tab\"><a href=\"RemoveBooks.html\">Remove more Books</a></div>");
+				pw.println("<div class=\"tab\"><a href=\"RemoveBooks.html\">Remove more Books from table</a></div>");
 
 			} else {
 				RequestDispatcher rd = req.getRequestDispatcher("Sample.html");
